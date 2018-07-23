@@ -4,6 +4,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 
 import { AppComponent } from './app.component';
+
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
@@ -18,9 +19,14 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+import { HomePageComponent } from './home-page/home-page.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
+
     HeaderComponent,
     AboutComponent,
     GalleryComponent,
@@ -39,6 +45,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     MatSelectModule,
     MatInputModule,
     BrowserAnimationsModule
+
+    HomePageComponent
+  ],
+
   ],
   providers: [],
   bootstrap: [AppComponent]

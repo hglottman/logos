@@ -22,7 +22,11 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+
     "concurrently": "^3.6.0",
+
+    "angular-material": "^1.1.10",
+
     "core-js": "^2.5.4",
     "nodemon": "^1.18.3",
     "rxjs": "^6.0.0",
